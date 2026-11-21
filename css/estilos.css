@@ -1,0 +1,119 @@
+
+:root {
+    --nimbus-light: #d5e3db;
+    --nimbus-green: #0d6815;
+    --nimbus-blue: #0c0d52;
+
+    --bs-primary: #0d6815;
+    --bs-primary-rgb: 13, 104, 21;
+
+    --bs-link-color: #0c0d52;
+    --bs-link-hover-color: #0d6815;
+}
+
+
+
+body {
+    background-color: var(--nimbus-light);
+    color: #18231d;
+}
+
+.bg-nimbus-light {
+    background-color: var(--nimbus-light) !important;
+}
+
+.bg-nimbus-green {
+    background-color: var(--nimbus-green) !important;
+}
+
+.bg-nimbus-blue {
+    background-color: var(--nimbus-blue) !important;
+}
+
+.text-nimbus-green {
+    color: var(--nimbus-green) !important;
+}
+
+.text-nimbus-blue {
+    color: var(--nimbus-blue) !important;
+}
+
+
+.btn-nimbus-green {
+    background-color: var(--nimbus-green);
+    border-color: var(--nimbus-green);
+    color: #ffffff;
+}
+
+.btn-nimbus-green:hover,
+.btn-nimbus-green:focus {
+    background-color: #09510f;
+    border-color: #09510f;
+    color: #ffffff;
+}
+
+.btn-nimbus-blue {
+    background-color: var(--nimbus-blue);
+    border-color: var(--nimbus-blue);
+    color: #ffffff;
+}
+
+.btn-nimbus-blue:hover,
+.btn-nimbus-blue:focus {
+    background-color: #080936;
+    border-color: #080936;
+    color: #ffffff;
+}
+
+.btn-outline-nimbus-blue {
+    color: var(--nimbus-blue);
+    border-color: var(--nimbus-blue);
+}
+
+.btn-outline-nimbus-blue:hover,
+.btn-outline-nimbus-blue:focus {
+    background-color: var(--nimbus-blue);
+    border-color: var(--nimbus-blue);
+    color: #ffffff;
+}
+
+
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #ffffff;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover,
+.navbar-dark .navbar-nav .nav-link.active {
+    color: var(--nimbus-light);
+}
+
+
+.card {
+    border-radius: 0.75rem;
+}
+
+.card-img-top {
+    height: 220px;
+    object-fit: cover;
+}
+
+.form-control:focus,
+.form-select:focus,
+.form-check-input:focus {
+    border-color: var(--nimbus-green);
+    box-shadow: 0 0 0 0.25rem rgba(13, 104, 21, 0.20);
+}
+
+.form-check-input:checked {
+    background-color: var(--nimbus-green);
+    border-color: var(--nimbus-green);
+}
+
+a {
+    color: var(--nimbus-blue);
+}
+
+a:hover {
+    color: var(--nimbus-green);
+}

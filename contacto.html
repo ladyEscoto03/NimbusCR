@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Contacta con NimbusCR Soluciones Logísticas y solicita información o una cotización de transporte de carga.">
+    <title>NimbusCR | Contacto y cotizaciones</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+
+<body>
+
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-nimbus-green">
+            <div class="container">
+                <a class="navbar-brand fw-bold" href="index.html">
+                    <i class="bi bi-truck-front-fill"></i> NimbusCR
+                </a>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuPrincipal"
+                    aria-controls="menuPrincipal" aria-expanded="false" aria-label="Abrir menú de navegación">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="menuPrincipal">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
+                        <li class="nav-item"><a class="nav-link" href="servicios.html">Servicios</a></li>
+                        <li class="nav-item"><a class="nav-link" href="rastreo.html">Rastreo</a></li>
+                        <li class="nav-item"><a class="nav-link active" aria-current="page"
+                                href="contacto.html">Contacto</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="bg-nimbus-light py-5">
+            <div class="container text-center py-4">
+                <p class="text-nimbus-blue fw-semibold text-uppercase">Estamos para ayudarte</p>
+                <h1 class="display-4 fw-bold">Contacto y cotizaciones</h1>
+                <p class="lead">Cuéntanos qué necesitas transportar y nos pondremos en contacto.</p>
+            </div>
+        </section>
+
+        <section class="container py-5">
+            <div class="row g-5">
+
+                <div class="col-lg-5">
+                    <h2 class="h3 fw-bold mb-3">Hablemos de tu próximo envío</h2>
+                    <p>
+                        Completa el formulario con tus datos y la información de tu solicitud. Así podremos conocer
+                        mejor tus necesidades de transporte.
+                    </p>
+
+                    <div class="mt-4">
+                        <article class="d-flex gap-3 mb-4">
+                            <i class="bi bi-truck fs-3 text-nimbus-green" aria-hidden="true"></i>
+                            <div>
+                                <h3 class="h5 fw-bold">Transporte de carga</h3>
+                                <p class="mb-0">Consulta sobre el traslado de tus mercancías.</p>
+                            </div>
+                        </article>
+
+                        <article class="d-flex gap-3 mb-4">
+                            <i class="bi bi-geo-alt fs-3 text-nimbus-green" aria-hidden="true"></i>
+                            <div>
+                                <h3 class="h5 fw-bold">Información de envíos</h3>
+                                <p class="mb-0">Solicita información relacionada con tus envíos.</p>
+                            </div>
+                        </article>
+
+                        <article class="d-flex gap-3">
+                            <i class="bi bi-chat-dots fs-3 text-nimbus-green" aria-hidden="true"></i>
+                            <div>
+                                <h3 class="h5 fw-bold">Atención al cliente</h3>
+                                <p class="mb-0">Envíanos tus consultas o comentarios.</p>
+                            </div>
+                        </article>
+                    </div>
+
+                
+                </div>
+
+                <div class="col-lg-7">
+                    <div class="card border-0 shadow-sm">
+                        <div class="card-body p-4 p-md-5">
+                            <h2 class="h3 fw-bold mb-4">Formulario de contacto</h2>
+
+                            <form action="#" method="get">
+
+                                <div class="row g-3">
+
+                                    <div class="col-md-6">
+                                        <label for="nombre" class="form-label fw-semibold">Nombre completo</label>
+                                        <input type="text" class="form-control" id="nombre" name="nombre"
+                                            placeholder="Escribe tu nombre">
+                                    </div>
+
+                                    <div class="col-md-6">
+                                        <label for="correo" class="form-label fw-semibold">Correo electrónico</label>
+                                        <input type="email" class="form-control" id="correo" name="correo"
+                                            placeholder="nombre@correo.com">
+                                    </div>
+
+                                    <div class="col-md-6">
+                                        <label for="telefono" class="form-label fw-semibold">Teléfono</label>
+                                        <input type="tel" class="form-control" id="telefono" name="telefono"
+                                            placeholder="Ejemplo: 8888-8888">
+                                    </div>
+
+                                    <div class="col-md-6">
+                                        <label for="servicio" class="form-label fw-semibold">Servicio de interés</label>
+                                        <select class="form-select" id="servicio" name="servicio">
+                                            <option value="" selected>Selecciona un servicio</option>
+                                            <option value="Transporte de carga">Transporte de carga</option>
+                                            <option value="Gestion de envios">Gestión de envíos</option>
+                                            <option value="Rastreo de envios">Rastreo de envíos</option>
+                                            <option value="Otro">Otro</option>
+                                        </select>
+                                    </div>
+
+                                    <div class="col-md-6">
+                                        <label for="origen" class="form-label fw-semibold">Lugar de origen</label>
+                                        <input type="text" class="form-control" id="origen" name="origen"
+                                            placeholder="Ejemplo: San José">
+                                    </div>
+
+                                    <div class="col-md-6">
+                                        <label for="destino" class="form-label fw-semibold">Lugar de destino</label>
+                                        <input type="text" class="form-control" id="destino" name="destino"
+                                            placeholder="Ejemplo: Liberia">
+                                    </div>
+
+                                    <div class="col-12">
+                                        <label for="mensaje" class="form-label fw-semibold">Detalles de la
+                                            solicitud</label>
+                                        <textarea class="form-control" id="mensaje" name="mensaje" rows="5"
+                                            placeholder="Describe qué necesitas transportar o consulta que deseas realizar..."></textarea>
+                                    </div>
+
+                                    <div class="col-12">
+                                        <button type="submit" class="btn btn-nimbus-green btn-lg w-100">
+                                            <i class="bi bi-send" aria-hidden="true"></i> Enviar solicitud
+                                        </button>
+                                    </div>
+
+                                </div>
+
+                            </form>
+
+
+
+                            <div id="mensajeContacto" class="mt-3" aria-live="polite" aria-atomic="true"></div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-nimbus-green text-white py-4">
+        <div class="container text-center">
+            <p class="fw-bold mb-1">NimbusCR Soluciones Logísticas</p>
+            <p class="mb-2">Transporte de carga y rastreo de envíos en Costa Rica.</p>
+            <p class="small mb-0">&copy; 2026 NimbusCR. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
